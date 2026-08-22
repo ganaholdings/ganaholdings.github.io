@@ -101,6 +101,11 @@
     color: var(--ink-dim);
   }
   footer a { color: var(--gold); text-decoration: none; }
+
+  .game-card { display: flex; gap: 18px; align-items: flex-start; }
+  .game-card .app-icon { width: 72px; height: 72px; border-radius: 16px; flex: 0 0 72px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+  .game-card .card-body { flex: 1; min-width: 0; }
+  @media (max-width: 480px) { .game-card .app-icon { width: 56px; height: 56px; flex-basis: 56px; border-radius: 13px; } }
 </style>
 </head>
 <body>
@@ -116,21 +121,27 @@
   <h2>Apps</h2>
 
   <div class="game-card">
+    <img class="app-icon" src="/assets/icons/investcal.png" alt="" width="72" height="72">
+    <div class="card-body">
     <h3>투자 계산기 <span style="color:var(--ink-dim);font-style:italic;">Investment Calculator</span></h3>
     <div class="tagline">DSR 한도 진단 · 은행별 최신 금리 비교 · 부동산 수익률 · 대출·예적금 계산 · iOS</div>
     <div class="links">
       <a href="https://apps.apple.com/app/id6502860467" target="_blank" rel="noopener">App Store</a>
       <a href="https://ganaholdings.github.io/investcal-legal/">개발자 정보 · 지원 · 개인정보처리방침</a>
     </div>
+      </div>
   </div>
 
   <div class="game-card">
+    <img class="app-icon" src="/assets/icons/mycar.png" alt="" width="72" height="72">
+    <div class="card-body">
     <h3>내차는 어디에 <span style="color:var(--ink-dim);font-style:italic;">Where's My Car?</span></h3>
     <div class="tagline">시동 OFF 자동 저장 · 층·구역 기억 · 위젯 — 주차 위치 기록 앱 · iOS</div>
     <div class="links">
       <a href="https://apps.apple.com/app/id6755907889" target="_blank" rel="noopener">App Store</a>
       <a href="https://ganaholdings.github.io/mycar-legal/">개발자 정보 · 지원 · 개인정보처리방침</a>
     </div>
+      </div>
   </div>
 </section>
 
@@ -138,6 +149,8 @@
   <h2>Games</h2>
 
   <div class="game-card">
+    <img class="app-icon" src="/assets/icons/3kingdom.png" alt="" width="72" height="72">
+    <div class="card-body">
     <h3>삼국 풍운 <span style="color:var(--ink-dim);font-style:italic;">Three Kingdoms: Storm of War</span></h3>
     <div class="tagline">헥사그리드 삼국지 전략 게임 · iOS / Android</div>
     <div class="links">
@@ -145,15 +158,19 @@
       <a href="https://play.google.com/store/apps/details?id=com.GanaHoldings.stormofwar" target="_blank" rel="noopener">Google Play</a>
       <a href="https://ganaholdings.github.io/3kingdom-legal/">개발자 정보 · 지원 · 개인정보처리방침</a>
     </div>
+      </div>
   </div>
 
   <div class="game-card">
+    <img class="app-icon" src="/assets/icons/jokers.png" alt="" width="72" height="72">
+    <div class="card-body">
     <h3>Joker's Last Call</h3>
     <div class="tagline">로그라이크 원카드 배틀 · Steam (Windows)</div>
     <div class="links">
       <a href="https://ganaholdings.github.io/jlc-support/">Support / FAQ</a>
       <a href="https://ganaholdings.github.io/jlc-legal/">Privacy Policy</a>
     </div>
+      </div>
   </div>
 </section>
 
