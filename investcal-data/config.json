@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-22T08:15:40Z",
+  "stressDSR": {
+    "asOf": "2026-08",
+    "baseStressPercent": 1.5,
+    "metroMortgageStressPercent": 3.0,
+    "localMortgageApplyRatio": 0.5,
+    "creditStressThreshold": 100000000,
+    "dsrApplicableTotalDebt": 100000000,
+    "bankLimitPercent": 40,
+    "nonBankLimitPercent": 50,
+    "mixedWeights": [
+      0.8,
+      0.6,
+      0.4,
+      0.0
+    ],
+    "periodicWeights": [
+      0.4,
+      0.3,
+      0.2,
+      0.0
+    ],
+    "baseRatePercent": 2.5,
+    "baseRateAsOf": "2025-05",
+    "notes": "금융회사별 산정 방식이 다를 수 있어 참고용입니다. 지방 주담대 적용비율 50%는 2026-12-31까지."
+  },
+  "minAppVersion": "1.2",
+  "message": null
+}
